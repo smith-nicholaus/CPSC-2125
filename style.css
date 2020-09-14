@@ -1,5 +1,35 @@
 #headers {
   font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
   border-collapse: collapse;
   width: 100%;
+}
+
+body {
+  background-color:white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ol:nth-child(odd){
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table, th {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  
+}
+
+#headers td, headers th {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+#headers tr:nth-child(odd) {
+  background-color: lightgray;
 }
