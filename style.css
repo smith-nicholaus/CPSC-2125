@@ -1,13 +1,5 @@
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: rgb(193, 112, 224);
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
+#headers {
+  font-family: "Times New Roman", Times, serif;
+  border-collapse: collapse;
+  width: 100%;
 }
