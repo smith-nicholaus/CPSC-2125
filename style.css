@@ -33,3 +33,7 @@ table, th {
 #headers tr:nth-child(odd) {
   background-color: lightgray;
 }
+
+a, ul {
+  text-decoration: none;
+}
