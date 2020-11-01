@@ -5,7 +5,7 @@
 
 .nav {
   grid-area: nav;
-  text-align: center;
+  text-align: left;
 }
 
 .content {
@@ -26,10 +26,10 @@
 .wrapper {
   display: grid;
 grid-template-areas: 
-'header header header header'
-'nav content content sidebar'
-'nav content content sidebar'
-'footer footer footer footer';
+'header header header'
+'nav content sidebar'
+'nav content sidebar'
+'footer footer footer';
 grid-gap: 10px;
 padding: 10px;
 }
@@ -55,4 +55,27 @@ table, th {
 
 a {
   text-decoration: none;
+}
+
+/* For mobile phones*/
+[class*="wrapper"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For Tablets: */
+  .header {width: 40.00%;}
+  .nav {width: 30.00%;}
+  .content {width: 90.00%;}
+  .sidebar {width: 40.00%}
+  .footer {width: 40.00%}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For Desktop */
+  .header {width: 40.00%;}
+  .nav {width: 30.00%;}
+  .content {width: 90.00%;}
+  .sidebar {width: 40.00%}
+  .footer {width: 40.00%}
 }
